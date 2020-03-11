@@ -11,4 +11,4 @@ There are four different Stan models:
 
 The Stan models can easily be modified to use different functional forms. For information on Stan, see https://mc-stan.org/.
 
-The DATA folder contains the three simulated data sets, as described in Section 3 of the paper. These are the full data sets, but one can genrate subsets based on truncation by selection only rwos with $Y_1 > -6$, or based on R_MAX by selectiin only rows with $R < R_MAX$.
+The DATA folder contains the three simulated data sets, as described in Section 3 of the paper. These are the full data sets, but one can genrate subsets based on truncation by selection only rwos with $Y_1 > -6$, or based on R_MAX by selecting only rows with $R < R_MAX$.
