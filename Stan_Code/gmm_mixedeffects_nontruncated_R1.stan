@@ -11,8 +11,6 @@ data {
   vector[N] R;        // distance for each record
   vector[N] Y;        // log pga for each record
 
-  real Ytrunc;        // truncation threshold
-
   int<lower=1,upper=NEQ> eq[N];       // earthquake id
   int<lower=1,upper=NSTAT> stat[N];   // station id
 }
