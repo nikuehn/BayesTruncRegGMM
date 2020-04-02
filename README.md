@@ -15,6 +15,6 @@ The DATA folder contains the three simulated data sets, as described in Section 
 
 The file `run_stan_simulation.R` shows how to load a data set and perform a simple regression using cmdstanR (https://mc-stan.org/cmdstanr/index.html). For a real application, the sampling parameters should be set to realistic values, and possibly initial values should be specified.
 
-The folder DATA_IRAN contains the Stan input data file and files for initial values to run the runcated regression for the Iranian data set.
+The folder DATA_IRAN contains the Stan input data file and files for initial values to run the truncated regression for the Iranian data set.
 The script `data_iran_pgat02_rotd50.Rdata` contains a simple script to run the regression using cmdstanR.
 
