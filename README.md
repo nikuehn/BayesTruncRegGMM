@@ -17,3 +17,5 @@ The file `run_stan_simulation.R` shows how to load a data set and perform a simp
 
 The folder DATA_IRAN contains the Stan input data file and files for initial values to run the truncated regression for the Iranian data set.
 The script `data_iran_pgat02_rotd50.Rdata` contains a simple script to run the regression using cmdstanR.
+
+The folder PLOTS conains plots of the estiamted cofficients and heir uncertainty for all target variables for the simulated data set, similar to Figure 4 in the paper version.
